@@ -6,7 +6,7 @@ var file = new(static.Server)();
 const port = process.env.PORT || 8080;
 
 process.on('SIGINT', signal => {
-  console.log('SIGINT. Chau!')
+  console.log('Aplicacion modificada. Chau!')
   process.exit(0)
 });
 
